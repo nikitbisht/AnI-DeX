@@ -44,7 +44,7 @@ The model is trained on **90 animal classes**, including animals like:
    ```
 
 ## 🚀 Usage
-1. Open the web app in your browser: **http://127.0.0.1:5000/**
+1. Open the web app in your browser: **http://127.0.0.1:5001/**
 2. Upload an animal image
 3. Anidex will classify the animal and show detailed information (with text and image from Wikipedia)
 4. Optionally, click the **Speech Button** to hear the animal's details!
