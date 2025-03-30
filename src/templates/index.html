@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnI-DeX</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AnI-DeX</h1>
+
+        <label for="test_img" class="upload-button">Upload Image</label>
+        <input type="file" id="test_img" name="image" accept="image/*" required>
+        <button type="button" id="predict_button">Predict</button>
+
+        <h4 id="upload_img_text">Uploaded Image</h4>
+        <div class="img_container">
+            <img src="" id="upload_img">
+        </div>
+
+        <div class="result-container">
+            <h3>Prediction: <span id="predict"></span></h3>
+        </div>
+
+        <button id="speak_btn">Play</button>
+        
+        <div class="info-section">
+            <h2 id="animal_heading">Animal Info</h2>
+            <p id="animal_info" class="info-text"></p>
+        </div>
+
+        <div class="image-section">
+            <h2 id="animal_images">Example Images</h2>
+            <div id="example_container" class="example-images"></div>
+        </div>
+    </div>
+
+    <script src="../static/script.js"></script>
+</body>
+</html>
