@@ -31,8 +31,8 @@ The model is trained on **90 animal classes**, including animals like:
 ## 🖥 Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/anidex.git
-   cd anidex
+   git clone https://github.com/nikitbisht/AnI-DeX
+   cd AnI-DeX
    ```
 2. Install dependencies:
    ```bash
