@@ -24,9 +24,9 @@ The model is trained on **90 animal classes**, including animals like:
 - **Speech-to-Text** (for reading out animal details)
 
 ## 🔥 Model Performance
-✅ **Accuracy:** 84% (with room for improvement)
-✅ **Works with 90 animal classes**
-✅ **Handles animal image classification efficiently**
+✅ **Accuracy:** 84% (with room for improvement)\
+✅ **Works with 90 animal classes**\
+✅ **Handles animal image classification efficiently**\
 
 ## 🖥 Installation
 1. Clone the repository:
